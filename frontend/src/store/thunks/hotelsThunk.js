@@ -1,25 +1,22 @@
-import {createAsyncThunk} from "@reduxjs/toolkit";
+import { createAsyncThunk } from "@reduxjs/toolkit";
 
 const API_URL = "http://localhost:4000";
 
 export const getHotels = createAsyncThunk(
     "hotels/getHotels",
-    async ({ destinationID, query }, { rejectWithValue }) => {
+    async (_, { rejectWithValue }) => {
         try {
-            const res = await fetch(`${API_URL}/search`, {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ destinationID, query })
-            });
-
-            if (!res.ok) {
-                const err = await res.json();
-                throw new Error(err.message || "Failed to fetch hotels!");
+            const response = await fetch(`${API_URL}/hotels`);
+            if (!response.ok) {
+                const errorData = await response.json().catch(() => ({}));
+                const message = errorData?.message || `Server error: ${response.status}`;
+                throw new Error(message);
             }
 
-            return await res.json();
-        } catch (err) {
-            return rejectWithValue(err.message);
+            const data = await response.json();
+            return data;
+        } catch (error) {
+            return rejectWithValue(error.message || "Something went wrong");
         }
     }
 );

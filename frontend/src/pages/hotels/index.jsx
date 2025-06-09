@@ -1,5 +1,5 @@
-import {useDispatch, useSelector} from "react-redux";
-import {useEffect} from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { useEffect } from "react";
 import { getHotels } from "../../store/thunks/hotelsThunk";
 
 const Hotels = () => {
@@ -7,28 +7,17 @@ const Hotels = () => {
     const { items, loading, error } = useSelector(state => state.hotels);
 
     useEffect(() => {
-        dispatch(getHotels({ destinationId: 1, query: "" }));
+        dispatch(getHotels());
     }, [dispatch]);
 
     useEffect(() => {
-        console.log(items); // <--- выведет массив отелей
+        console.log(items);
     }, [items]);
 
-    return (
-        <div>
-            <h2>Отели</h2>
-            {loading && <p>Загрузка...</p>}
-            {error && <p>Ошибка: {error}</p>}
-            <ul>
-                {items.map(hotel => (
-                    <li key={hotel.id}>
-                        {hotel.name} — {hotel.label}
-                    </li>
-                ))}
-            </ul>
-        </div>
+    return <div>
 
-    )
-}
+    </div>;
+};
 
-export default Hotels
+export default Hotels;
+
