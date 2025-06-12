@@ -1,9 +1,7 @@
-
-
 const Header = () => {
     return (
-        <div className="header">
-            Header
+        <div>
+            <span className='text-red-700'>Header</span>
         </div>
     )
 }

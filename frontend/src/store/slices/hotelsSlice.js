@@ -1,30 +1,35 @@
-import {createSlice} from '@reduxjs/toolkit';
+import { createSlice } from "@reduxjs/toolkit";
+import { getHotelsByCity } from "../thunks/hotelsThunk";
 
-import { getHotels } from '../thunks/hotelsThunk.js';
-
-const hotelsSlice = createSlice( {
-    name: 'hotels',
+const hotelsSlice = createSlice({
+    name: "hotels",
     initialState: {
         items: [],
         loading: false,
-        error: "",
+        error: null,
+        selectedCity: "",
     },
-    reducers: {},
-    extraReducers: builder => {
+    reducers: {
+        setSelectedCity(state, action) {
+            state.selectedCity = action.payload;
+        },
+    },
+    extraReducers: (builder) => {
         builder
-            .addCase(getHotels.pending, state => {
+            .addCase(getHotelsByCity.pending, (state) => {
                 state.loading = true;
-                state.error = "";
+                state.error = null;
             })
-            .addCase(getHotels.fulfilled, (state, action) => {
+            .addCase(getHotelsByCity.fulfilled, (state, action) => {
+                state.loading = false;
                 state.items = action.payload;
-                state.loading = false;
             })
-            .addCase(getHotels.rejected, (state , action) => {
+            .addCase(getHotelsByCity.rejected, (state, action) => {
+                state.loading = false;
                 state.error = action.payload;
-                state.loading = false;
-            })
-    }
+            });
+    },
 });
 
+export const { setSelectedCity } = hotelsSlice.actions;
 export default hotelsSlice.reducer;

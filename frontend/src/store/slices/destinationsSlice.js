@@ -1,29 +1,27 @@
-import { createSlice } from '@reduxjs/toolkit';
+import { createSlice } from "@reduxjs/toolkit";
 import { getDestinations } from "../thunks/destinationsThunk";
 
-
-const destinationsSlice = createSlice( {
-    name: 'destinations',
+const destinationsSlice = createSlice({
+    name: "destinations",
     initialState: {
         items: [],
         loading: false,
-        error: "",
+        error: null,
     },
-    reducers: {},
-    extraReducers: builder => {
+    extraReducers: (builder) => {
         builder
-            .addCase(getDestinations.pending, state => {
-            state.loading = true;
-            state.error = "";
-        })
+            .addCase(getDestinations.pending, (state) => {
+                state.loading = true;
+                state.error = null;
+            })
             .addCase(getDestinations.fulfilled, (state, action) => {
+                state.loading = false;
                 state.items = action.payload;
-                state.loading = false;
             })
-            .addCase(getDestinations.rejected, (state , action) => {
+            .addCase(getDestinations.rejected, (state, action) => {
+                state.loading = false;
                 state.error = action.payload;
-                state.loading = false;
-            })
+            });
     },
 });
 
