@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider } from "react-router";
+import {createBrowserRouter, RouterProvider} from "react-router";
 
 
 //Loaders
@@ -14,7 +14,7 @@ import Layout from "./components/Layout";
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <Layout />,
+        element: <Layout/>,
         children: [
             {
                 index: true,
@@ -22,12 +22,14 @@ const router = createBrowserRouter([
             },
             {
                 path: "hotels",
-                element: <Hotels />
+                element: <Hotels/>
             },
             {
                 path: "about-us",
-                element: <AboutUs />,
-                loader: () => {console.log("Loading data")}
+                element: <AboutUs/>,
+                loader: () => {
+                    console.log("Loading data")
+                }
             },
             {
                 path: "*",
@@ -41,8 +43,9 @@ const router = createBrowserRouter([
         element: <div>404 page</div>,
     }
 ])
+
 function App() {
-   return (<RouterProvider router={router} />)
+    return (<RouterProvider router={router}/>)
 
 }
 

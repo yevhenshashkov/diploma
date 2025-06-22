@@ -1,13 +1,12 @@
-import {configureStore, createStore} from "@reduxjs/toolkit";
-import hotelsReducer from "./slices/hotelsSlice.js";
-import authReducer from "./slices/authSlice.js";
-import destinationsReducer from "./slices/destinationsSlice.js";
-
+import { configureStore } from "@reduxjs/toolkit";
+import hotelsReducer from "./slices/hotelsSlice";
+import authReducer from "./slices/authSlice";
+import destinationsReducer from "./slices/destinationsSlice";
 
 export const store = configureStore({
     reducer: {
         hotels: hotelsReducer,
-        auth: authReducer,
         destinations: destinationsReducer,
-    }
-})
+        auth: authReducer,
+    },
+});
