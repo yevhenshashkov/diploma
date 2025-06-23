@@ -1,52 +1,37 @@
-import {createBrowserRouter, RouterProvider} from "react-router";
 
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-//Loaders
-
-//Pages
+// Pages
+import Login from "./pages/login";
+import SignUp from "./pages/sign-up";
+import Hotels from "./pages/hotels";
 import AboutUs from "./pages/about-us";
-import Hotels from "./pages/hotels/";
+import Contacts from "./pages/contacts";
 
-//Components
+// Layout
 import Layout from "./components/Layout";
-
 
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <Layout/>,
+        element: <Layout />,
         children: [
-            {
-                index: true,
-                element: <div>Home</div>
-            },
-            {
-                path: "hotels",
-                element: <Hotels/>
-            },
-            {
-                path: "about-us",
-                element: <AboutUs/>,
-                loader: () => {
-                    console.log("Loading data")
-                }
-            },
-            {
-                path: "*",
-                element: <div>404 Page</div>
-            },
-
-        ]
+            { index: true, element: <Hotels /> },
+            { path: "hotels", element: <Hotels /> },
+            { path: "about-us", element: <AboutUs /> },
+            { path: "contacts", element: <Contacts /> },
+            { path: "login", element: <Login /> },
+            { path: "signup", element: <SignUp /> },
+        ],
     },
     {
         path: "*",
-        element: <div>404 page</div>,
-    }
-])
+        element: <div>404 — Страница не найдена</div>,
+    },
+]);
 
 function App() {
-    return (<RouterProvider router={router}/>)
-
+    return <RouterProvider router={router} />;
 }
 
-export default App
+export default App;

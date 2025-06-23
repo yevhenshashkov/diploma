@@ -1,10 +1,47 @@
+
 import { useDispatch, useSelector } from "react-redux";
-import { setSelectedCity } from "../../../store/slices/hotelsSlice";
+import { setSelectedCity, setFilters } from "../../../store/slices/hotelsSlice";
+import { useState, useEffect } from "react";
 
 const SideBar = () => {
     const dispatch = useDispatch();
     const hotels = useSelector((state) => state.hotels.items);
+    const filters = useSelector((state) => state.hotels.filters);
     const uniqueCities = [...new Set(hotels.map((h) => h.city))];
+
+    const [minPrice, setMinPrice] = useState(filters.minPrice);
+    const [maxPrice, setMaxPrice] = useState(filters.maxPrice);
+
+    useEffect(() => {
+        dispatch(setFilters({ minPrice, maxPrice }));
+    }, [minPrice, maxPrice, dispatch]);
+
+    const handleCheckbox = (e) => {
+        const { name, checked } = e.target;
+        dispatch(setFilters({ [name]: checked }));
+    };
+
+    const handleReset = () => {
+        dispatch(setSelectedCity(null));
+        dispatch(setFilters({
+            minPrice: 0,
+            maxPrice: 1000,
+            childrenFriendly: false,
+            petsAllowed: false
+        }));
+        setMinPrice(0);
+        setMaxPrice(1000);
+    };
+
+    const handleMinPriceChange = (e) => {
+        const val = Number(e.target.value);
+        if (!isNaN(val)) setMinPrice(val);
+    };
+
+    const handleMaxPriceChange = (e) => {
+        const val = Number(e.target.value);
+        if (!isNaN(val)) setMaxPrice(val);
+    };
 
     return (
         <aside className="w-64 p-5 border-r bg-gray-100 text-sm">
@@ -28,52 +65,61 @@ const SideBar = () => {
 
             {/* Цена */}
             <div className="mb-6">
-                <h3 className="font-semibold mb-2">Цена</h3>
-                <div className="flex gap-2 items-center">
+                <h3 className="font-semibold mb-2">Цена ($)</h3>
+                <div className="flex items-center gap-2">
                     <input
-                        type="number"
-                        placeholder="от"
-                        className="w-full px-2 py-1 border rounded"
+                        type="text"
+                        inputMode="numeric"
+                        pattern="[0-9]*"
+                        value={minPrice}
+                        onChange={handleMinPriceChange}
+                        onBlur={() => dispatch(setFilters({ minPrice }))}
+                        onKeyDown={(e) => e.key === "Enter" && dispatch(setFilters({ minPrice }))}
+                        className="w-full px-2 py-1 border rounded appearance-none"
                     />
+                    <span>-</span>
                     <input
-                        type="number"
-                        placeholder="до"
-                        className="w-full px-2 py-1 border rounded"
+                        type="text"
+                        inputMode="numeric"
+                        pattern="[0-9]*"
+                        value={maxPrice}
+                        onChange={handleMaxPriceChange}
+                        onBlur={() => dispatch(setFilters({ maxPrice }))}
+                        onKeyDown={(e) => e.key === "Enter" && dispatch(setFilters({ maxPrice }))}
+                        className="w-full px-2 py-1 border rounded appearance-none"
                     />
                 </div>
             </div>
 
-            {/* Удобства */}
+            {/* Условия */}
             <div className="mb-6">
-                <h3 className="font-semibold mb-2">Удобства</h3>
+                <h3 className="font-semibold mb-2">Условия</h3>
                 <label className="flex items-center gap-2 mb-1">
-                    <input type="checkbox" /> Wi-Fi
+                    <input
+                        type="checkbox"
+                        name="childrenFriendly"
+                        checked={filters.childrenFriendly}
+                        onChange={handleCheckbox}
+                    />
+                    Children friendly
                 </label>
                 <label className="flex items-center gap-2 mb-1">
-                    <input type="checkbox" /> Парковка
+                    <input
+                        type="checkbox"
+                        name="petsAllowed"
+                        checked={filters.petsAllowed}
+                        onChange={handleCheckbox}
+                    />
+                    Pets friendly
                 </label>
-                <label className="flex items-center gap-2 mb-1">
-                    <input type="checkbox" /> Завтрак включен
-                </label>
-            </div>
-
-            {/* Рейтинг */}
-            <div className="mb-6">
-                <h3 className="font-semibold mb-2">Рейтинг</h3>
-                <select className="w-full border px-2 py-1 rounded">
-                    <option value="">Любой</option>
-                    <option value="4">4+ звезды</option>
-                    <option value="3">3+ звезды</option>
-                    <option value="2">2+ звезды</option>
-                </select>
             </div>
 
             {/* Сброс */}
             <button
                 className="mt-4 w-full bg-red-500 text-white py-1 rounded hover:bg-red-600"
-                onClick={() => dispatch(setSelectedCity(null))}
+                onClick={handleReset}
             >
-                Сбросить фильтры
+                Reset filters
             </button>
         </aside>
     );

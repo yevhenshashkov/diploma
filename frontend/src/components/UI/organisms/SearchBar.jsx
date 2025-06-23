@@ -1,4 +1,3 @@
-// src/components/UI/organisms/SearchBar.jsx
 import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getDestinations } from "../../../store/thunks/destinationsThunk";
@@ -39,7 +38,7 @@ const SearchBar = () => {
                     type="text"
                     value={inputValue}
                     onChange={e => setInputValue(e.target.value)}
-                    placeholder="Введите город"
+                    placeholder="Choose your city"
                     className="border rounded px-3 py-2 w-full"
                 />
                 <button

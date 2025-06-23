@@ -88,7 +88,7 @@
     {
       "id": 18,
       "value": 24263,
-      "label": "Walt Disney World® Resort"
+      "label": "Walt Disney World\u00ae Resort"
     },
     {
       "id": 19,
@@ -117,7 +117,10 @@
       "hotel_rating": 4,
       "phone_number": "18005740835",
       "website": null,
-      "image": "https://images.unsplash.com/photo-1479502806991-251c94be6b15?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      "image": "https://images.unsplash.com/photo-1479502806991-251c94be6b15?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "pricePerNight": 325,
+      "childrenFriendly": true,
+      "petsAllowed": true
     },
     {
       "id": 11003176,
@@ -129,7 +132,10 @@
       "hotel_rating": 0,
       "phone_number": null,
       "website": null,
-      "image": "https://images.unsplash.com/photo-1456410826655-1ade96049e79?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      "image": "https://images.unsplash.com/photo-1456410826655-1ade96049e79?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "pricePerNight": 336,
+      "childrenFriendly": true,
+      "petsAllowed": false
     },
     {
       "id": 747134,
@@ -141,7 +147,10 @@
       "hotel_rating": 3.5,
       "phone_number": "212260414",
       "website": null,
-      "image": "https://images.unsplash.com/photo-1683219390820-02c6fc5243ec?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      "image": "https://images.unsplash.com/photo-1683219390820-02c6fc5243ec?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "pricePerNight": 268,
+      "childrenFriendly": true,
+      "petsAllowed": true
     },
     {
       "id": 720550,
@@ -153,7 +162,10 @@
       "hotel_rating": 3,
       "phone_number": "1 212 2191018",
       "website": null,
-      "image": "https://plus.unsplash.com/premium_photo-1749200412744-df6cf06f0496?q=80&w=2065&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      "image": "https://plus.unsplash.com/premium_photo-1749200412744-df6cf06f0496?q=80&w=2065&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "pricePerNight": 268,
+      "childrenFriendly": false,
+      "petsAllowed": true
     },
     {
       "id": 797074,
@@ -165,7 +177,10 @@
       "hotel_rating": 2.5,
       "phone_number": null,
       "website": null,
-      "image": "https://plus.unsplash.com/premium_photo-1683888229114-183b04b18e4d?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      "image": "https://plus.unsplash.com/premium_photo-1683888229114-183b04b18e4d?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "pricePerNight": 351,
+      "childrenFriendly": false,
+      "petsAllowed": false
     },
     {
       "id": 742987,
@@ -177,7 +192,10 @@
       "hotel_rating": 4,
       "phone_number": null,
       "website": null,
-      "image": "https://images.unsplash.com/photo-1675438946665-2226c1878a68?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      "image": "https://images.unsplash.com/photo-1675438946665-2226c1878a68?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "pricePerNight": 391,
+      "childrenFriendly": true,
+      "petsAllowed": true
     },
     {
       "id": 743452,
@@ -189,7 +207,10 @@
       "hotel_rating": 3.5,
       "phone_number": "1-212-398-2700",
       "website": null,
-      "image": "https://images.unsplash.com/photo-1693080951268-a7cd68192683?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njd8fGhvdGVsJTIwbmV3JTIweW9ya3xlbnwwfHwwfHx8MA%3D%3D"
+      "image": "https://images.unsplash.com/photo-1693080951268-a7cd68192683?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njd8fGhvdGVsJTIwbmV3JTIweW9ya3xlbnwwfHwwfHx8MA%3D%3D",
+      "pricePerNight": 352,
+      "childrenFriendly": true,
+      "petsAllowed": true
     },
     {
       "id": 260469,
@@ -201,7 +222,10 @@
       "hotel_rating": 3,
       "phone_number": "1 212 777-0012",
       "website": null,
-      "image": "https://images.unsplash.com/photo-1693323932877-04b1a3068ade?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      "image": "https://images.unsplash.com/photo-1693323932877-04b1a3068ade?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "pricePerNight": 136,
+      "childrenFriendly": false,
+      "petsAllowed": false
     },
     {
       "id": 740399,
@@ -213,7 +237,10 @@
       "hotel_rating": 3,
       "phone_number": null,
       "website": null,
-      "image": "https://images.unsplash.com/photo-1708272958186-e80ee0db4e49?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTB8fGhvdGVsJTIwbmV3JTIweW9ya3xlbnwwfHwwfHx8MA%3D%3D"
+      "image": "https://images.unsplash.com/photo-1708272958186-e80ee0db4e49?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTB8fGhvdGVsJTIwbmV3JTIweW9ya3xlbnwwfHwwfHx8MA%3D%3D",
+      "pricePerNight": 291,
+      "childrenFriendly": true,
+      "petsAllowed": false
     },
     {
       "id": 5018104,
@@ -225,7 +252,10 @@
       "hotel_rating": 3,
       "phone_number": "XX",
       "website": null,
-      "image": "https://plus.unsplash.com/premium_photo-1725408137628-72756b761573?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      "image": "https://plus.unsplash.com/premium_photo-1725408137628-72756b761573?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "pricePerNight": 369,
+      "childrenFriendly": true,
+      "petsAllowed": true
     },
     {
       "id": 792811,
@@ -237,7 +267,10 @@
       "hotel_rating": 4.5,
       "phone_number": null,
       "website": null,
-      "image": "https://images.unsplash.com/photo-1683219386001-738ce8d83f7e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      "image": "https://images.unsplash.com/photo-1683219386001-738ce8d83f7e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "pricePerNight": 340,
+      "childrenFriendly": false,
+      "petsAllowed": true
     },
     {
       "id": 804220,
@@ -249,7 +282,10 @@
       "hotel_rating": 2.5,
       "phone_number": null,
       "website": null,
-      "image": "https://plus.unsplash.com/premium_photo-1723901831083-b2dda0944e12?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D"
+      "image": "https://plus.unsplash.com/premium_photo-1723901831083-b2dda0944e12?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D",
+      "pricePerNight": 356,
+      "childrenFriendly": false,
+      "petsAllowed": false
     },
     {
       "id": 5018107,
@@ -261,7 +297,10 @@
       "hotel_rating": 3,
       "phone_number": "17186985000",
       "website": null,
-      "image": "https://plus.unsplash.com/premium_photo-1694475315783-512c95173330?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fGhvdGVsJTIwbmV3JTIweW9ya3xlbnwwfHwwfHx8MA%3D%3D"
+      "image": "https://plus.unsplash.com/premium_photo-1694475315783-512c95173330?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fGhvdGVsJTIwbmV3JTIweW9ya3xlbnwwfHwwfHx8MA%3D%3D",
+      "pricePerNight": 97,
+      "childrenFriendly": true,
+      "petsAllowed": true
     },
     {
       "id": 700390,
@@ -273,7 +312,10 @@
       "hotel_rating": 4.5,
       "phone_number": null,
       "website": null,
-      "image": "https://images.unsplash.com/photo-1592134873587-feab66402390?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fGhvdGVsJTIwbmV3JTIweW9ya3xlbnwwfHwwfHx8MA%3D%3D"
+      "image": "https://images.unsplash.com/photo-1592134873587-feab66402390?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fGhvdGVsJTIwbmV3JTIweW9ya3xlbnwwfHwwfHx8MA%3D%3D",
+      "pricePerNight": 383,
+      "childrenFriendly": false,
+      "petsAllowed": true
     },
     {
       "id": 742946,
@@ -285,7 +327,10 @@
       "hotel_rating": 3,
       "phone_number": null,
       "website": null,
-      "image": "https://images.unsplash.com/photo-1590508992931-1ee8f953f2f6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fGhvdGVsJTIwbmV3JTIweW9ya3xlbnwwfHwwfHx8MA%3D%3D"
+      "image": "https://images.unsplash.com/photo-1590508992931-1ee8f953f2f6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fGhvdGVsJTIwbmV3JTIweW9ya3xlbnwwfHwwfHx8MA%3D%3D",
+      "pricePerNight": 207,
+      "childrenFriendly": true,
+      "petsAllowed": true
     },
     {
       "id": 776932,
@@ -297,8 +342,10 @@
       "hotel_rating": 4,
       "phone_number": "121-247-51920",
       "website": "https://freehandhotels.com/new-york/rooms/",
-      "image": "https://images.unsplash.com/photo-1675201459210-e64fee1e4e3e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fGhvdGVsJTIwbmV3JTIweW9ya3xlbnwwfHwwfHx8MA%3D%3D"
-
+      "image": "https://images.unsplash.com/photo-1675201459210-e64fee1e4e3e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fGhvdGVsJTIwbmV3JTIweW9ya3xlbnwwfHwwfHx8MA%3D%3D",
+      "pricePerNight": 53,
+      "childrenFriendly": true,
+      "petsAllowed": false
     },
     {
       "id": 741741,
@@ -310,7 +357,10 @@
       "hotel_rating": 2,
       "phone_number": null,
       "website": null,
-      "image": "https://plus.unsplash.com/premium_photo-1694475027390-8fd837fb67e8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fGhvdGVsJTIwbmV3JTIweW9ya3xlbnwwfHwwfHx8MA%3D%3D"
+      "image": "https://plus.unsplash.com/premium_photo-1694475027390-8fd837fb67e8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fGhvdGVsJTIwbmV3JTIweW9ya3xlbnwwfHwwfHx8MA%3D%3D",
+      "pricePerNight": 157,
+      "childrenFriendly": true,
+      "petsAllowed": false
     },
     {
       "id": 716815,
@@ -322,7 +372,10 @@
       "hotel_rating": 3,
       "phone_number": null,
       "website": null,
-      "image": "https://images.unsplash.com/photo-1702264388930-408041b12e1f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      "image": "https://images.unsplash.com/photo-1702264388930-408041b12e1f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "pricePerNight": 297,
+      "childrenFriendly": true,
+      "petsAllowed": true
     },
     {
       "id": 802583,
@@ -334,7 +387,10 @@
       "hotel_rating": 5,
       "phone_number": "+1 212 842 5500",
       "website": null,
-      "image": "https://images.unsplash.com/photo-1561198928-d649f64aefd1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzh8fGhvdGVsJTIwbmV3JTIweW9ya3xlbnwwfHwwfHx8MA%3D%3D"
+      "image": "https://images.unsplash.com/photo-1561198928-d649f64aefd1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzh8fGhvdGVsJTIwbmV3JTIweW9ya3xlbnwwfHwwfHx8MA%3D%3D",
+      "pricePerNight": 150,
+      "childrenFriendly": true,
+      "petsAllowed": false
     },
     {
       "id": 5018106,
@@ -346,7 +402,10 @@
       "hotel_rating": 3,
       "phone_number": null,
       "website": null,
-      "image": "https://images.unsplash.com/photo-1660166376836-dc0e11ce4d47?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDF8fGhvdGVsJTIwbmV3JTIweW9ya3xlbnwwfHwwfHx8MA%3D%3D"
+      "image": "https://images.unsplash.com/photo-1660166376836-dc0e11ce4d47?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDF8fGhvdGVsJTIwbmV3JTIweW9ya3xlbnwwfHwwfHx8MA%3D%3D",
+      "pricePerNight": 315,
+      "childrenFriendly": false,
+      "petsAllowed": false
     },
     {
       "id": 751736,
@@ -358,7 +417,10 @@
       "hotel_rating": 3,
       "phone_number": "703-261-5677",
       "website": null,
-      "image": "https://images.unsplash.com/photo-1653859798701-455ef9f1f0a9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      "image": "https://images.unsplash.com/photo-1653859798701-455ef9f1f0a9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "pricePerNight": 323,
+      "childrenFriendly": true,
+      "petsAllowed": true
     },
     {
       "id": 386689,
@@ -369,7 +431,11 @@
       "country_code": "US",
       "hotel_rating": 2.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 233,
+      "childrenFriendly": false,
+      "petsAllowed": true,
+      "image": "https://source.unsplash.com/featured/?hotel,room,9443"
     },
     {
       "id": 567484,
@@ -380,7 +446,11 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 245,
+      "childrenFriendly": false,
+      "petsAllowed": false,
+      "image": "https://source.unsplash.com/featured/?hotel,room,7695"
     },
     {
       "id": 677300,
@@ -391,7 +461,11 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 104,
+      "childrenFriendly": false,
+      "petsAllowed": false,
+      "image": "https://source.unsplash.com/featured/?hotel,room,6393"
     },
     {
       "id": 820605,
@@ -402,7 +476,11 @@
       "country_code": "US",
       "hotel_rating": null,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 147,
+      "childrenFriendly": true,
+      "petsAllowed": false,
+      "image": "https://source.unsplash.com/featured/?hotel,room,7603"
     },
     {
       "id": 731189,
@@ -413,7 +491,11 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 54,
+      "childrenFriendly": true,
+      "petsAllowed": false,
+      "image": "https://source.unsplash.com/featured/?hotel,room,7620"
     },
     {
       "id": 721848,
@@ -424,7 +506,11 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 119,
+      "childrenFriendly": true,
+      "petsAllowed": false,
+      "image": "https://source.unsplash.com/featured/?hotel,room,2675"
     },
     {
       "id": 677341,
@@ -435,7 +521,11 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 249,
+      "childrenFriendly": true,
+      "petsAllowed": false,
+      "image": "https://source.unsplash.com/featured/?hotel,room,3588"
     },
     {
       "id": 677347,
@@ -446,7 +536,11 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 82,
+      "childrenFriendly": false,
+      "petsAllowed": false,
+      "image": "https://source.unsplash.com/featured/?hotel,room,172"
     },
     {
       "id": 810445,
@@ -457,7 +551,11 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 69,
+      "childrenFriendly": false,
+      "petsAllowed": true,
+      "image": "https://source.unsplash.com/featured/?hotel,room,2633"
     },
     {
       "id": 677372,
@@ -468,7 +566,11 @@
       "country_code": "US",
       "hotel_rating": 3,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 317,
+      "childrenFriendly": true,
+      "petsAllowed": false,
+      "image": "https://source.unsplash.com/featured/?hotel,room,8919"
     },
     {
       "id": 822534,
@@ -479,7 +581,11 @@
       "country_code": "US",
       "hotel_rating": null,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 369,
+      "childrenFriendly": true,
+      "petsAllowed": true,
+      "image": "https://source.unsplash.com/featured/?hotel,room,4353"
     },
     {
       "id": 793847,
@@ -490,7 +596,11 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 94,
+      "childrenFriendly": false,
+      "petsAllowed": false,
+      "image": "https://source.unsplash.com/featured/?hotel,room,2428"
     },
     {
       "id": 677396,
@@ -501,7 +611,11 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 149,
+      "childrenFriendly": false,
+      "petsAllowed": false,
+      "image": "https://source.unsplash.com/featured/?hotel,room,7054"
     },
     {
       "id": 677411,
@@ -512,7 +626,11 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 66,
+      "childrenFriendly": true,
+      "petsAllowed": false,
+      "image": "https://source.unsplash.com/featured/?hotel,room,1331"
     },
     {
       "id": 677410,
@@ -523,7 +641,11 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 95,
+      "childrenFriendly": false,
+      "petsAllowed": true,
+      "image": "https://source.unsplash.com/featured/?hotel,room,4519"
     },
     {
       "id": 677425,
@@ -534,7 +656,11 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 275,
+      "childrenFriendly": true,
+      "petsAllowed": true,
+      "image": "https://source.unsplash.com/featured/?hotel,room,5448"
     },
     {
       "id": 677426,
@@ -545,7 +671,11 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 242,
+      "childrenFriendly": false,
+      "petsAllowed": true,
+      "image": "https://source.unsplash.com/featured/?hotel,room,7573"
     },
     {
       "id": 721859,
@@ -556,7 +686,11 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 89,
+      "childrenFriendly": false,
+      "petsAllowed": true,
+      "image": "https://source.unsplash.com/featured/?hotel,room,7829"
     },
     {
       "id": 801610,
@@ -567,7 +701,11 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 51,
+      "childrenFriendly": true,
+      "petsAllowed": true,
+      "image": "https://source.unsplash.com/featured/?hotel,room,5153"
     },
     {
       "id": 677429,
@@ -578,7 +716,11 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 269,
+      "childrenFriendly": false,
+      "petsAllowed": true,
+      "image": "https://source.unsplash.com/featured/?hotel,room,335"
     },
     {
       "id": 677433,
@@ -589,7 +731,11 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 226,
+      "childrenFriendly": true,
+      "petsAllowed": false,
+      "image": "https://source.unsplash.com/featured/?hotel,room,2173"
     },
     {
       "id": 677449,
@@ -600,7 +746,11 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 119,
+      "childrenFriendly": true,
+      "petsAllowed": false,
+      "image": "https://source.unsplash.com/featured/?hotel,room,6768"
     },
     {
       "id": 677450,
@@ -611,7 +761,11 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 354,
+      "childrenFriendly": false,
+      "petsAllowed": true,
+      "image": "https://source.unsplash.com/featured/?hotel,room,6139"
     },
     {
       "id": 677452,
@@ -622,7 +776,11 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 250,
+      "childrenFriendly": false,
+      "petsAllowed": false,
+      "image": "https://source.unsplash.com/featured/?hotel,room,2519"
     },
     {
       "id": 677455,
@@ -633,7 +791,11 @@
       "country_code": "US",
       "hotel_rating": 3,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 119,
+      "childrenFriendly": true,
+      "petsAllowed": true,
+      "image": "https://source.unsplash.com/featured/?hotel,room,3257"
     },
     {
       "id": 677470,
@@ -644,7 +806,11 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 115,
+      "childrenFriendly": false,
+      "petsAllowed": false,
+      "image": "https://source.unsplash.com/featured/?hotel,room,6159"
     },
     {
       "id": 677476,
@@ -655,7 +821,11 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 200,
+      "childrenFriendly": false,
+      "petsAllowed": false,
+      "image": "https://source.unsplash.com/featured/?hotel,room,6350"
     },
     {
       "id": 677477,
@@ -666,7 +836,11 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 190,
+      "childrenFriendly": true,
+      "petsAllowed": false,
+      "image": "https://source.unsplash.com/featured/?hotel,room,8024"
     },
     {
       "id": 677480,
@@ -677,7 +851,11 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 253,
+      "childrenFriendly": true,
+      "petsAllowed": true,
+      "image": "https://source.unsplash.com/featured/?hotel,room,9063"
     },
     {
       "id": 677481,
@@ -688,7 +866,11 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 218,
+      "childrenFriendly": true,
+      "petsAllowed": true,
+      "image": "https://source.unsplash.com/featured/?hotel,room,3566"
     },
     {
       "id": 677519,
@@ -699,7 +881,11 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 296,
+      "childrenFriendly": false,
+      "petsAllowed": true,
+      "image": "https://source.unsplash.com/featured/?hotel,room,5110"
     },
     {
       "id": 677520,
@@ -710,7 +896,11 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 292,
+      "childrenFriendly": false,
+      "petsAllowed": false,
+      "image": "https://source.unsplash.com/featured/?hotel,room,7325"
     },
     {
       "id": 705227,
@@ -721,7 +911,11 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 274,
+      "childrenFriendly": true,
+      "petsAllowed": false,
+      "image": "https://source.unsplash.com/featured/?hotel,room,7832"
     },
     {
       "id": 696618,
@@ -732,7 +926,11 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 50,
+      "childrenFriendly": true,
+      "petsAllowed": true,
+      "image": "https://source.unsplash.com/featured/?hotel,room,1321"
     },
     {
       "id": 677526,
@@ -743,7 +941,11 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 78,
+      "childrenFriendly": true,
+      "petsAllowed": true,
+      "image": "https://source.unsplash.com/featured/?hotel,room,370"
     },
     {
       "id": 677527,
@@ -754,7 +956,11 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 291,
+      "childrenFriendly": true,
+      "petsAllowed": true,
+      "image": "https://source.unsplash.com/featured/?hotel,room,6753"
     },
     {
       "id": 677528,
@@ -765,7 +971,11 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 202,
+      "childrenFriendly": false,
+      "petsAllowed": true,
+      "image": "https://source.unsplash.com/featured/?hotel,room,5848"
     },
     {
       "id": 677537,
@@ -776,7 +986,11 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 390,
+      "childrenFriendly": false,
+      "petsAllowed": true,
+      "image": "https://source.unsplash.com/featured/?hotel,room,6192"
     },
     {
       "id": 696614,
@@ -787,7 +1001,11 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 383,
+      "childrenFriendly": false,
+      "petsAllowed": false,
+      "image": "https://source.unsplash.com/featured/?hotel,room,8419"
     },
     {
       "id": 677694,
@@ -798,7 +1016,11 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 55,
+      "childrenFriendly": false,
+      "petsAllowed": false,
+      "image": "https://source.unsplash.com/featured/?hotel,room,2397"
     },
     {
       "id": 677550,
@@ -809,7 +1031,11 @@
       "country_code": "US",
       "hotel_rating": 3,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 301,
+      "childrenFriendly": false,
+      "petsAllowed": true,
+      "image": "https://source.unsplash.com/featured/?hotel,room,2056"
     },
     {
       "id": 787996,
@@ -820,7 +1046,11 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 108,
+      "childrenFriendly": true,
+      "petsAllowed": true,
+      "image": "https://source.unsplash.com/featured/?hotel,room,3723"
     },
     {
       "id": 731262,
@@ -831,7 +1061,11 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 309,
+      "childrenFriendly": true,
+      "petsAllowed": false,
+      "image": "https://source.unsplash.com/featured/?hotel,room,6081"
     },
     {
       "id": 677559,
@@ -842,7 +1076,11 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 303,
+      "childrenFriendly": false,
+      "petsAllowed": true,
+      "image": "https://source.unsplash.com/featured/?hotel,room,4354"
     },
     {
       "id": 677565,
@@ -853,7 +1091,11 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 204,
+      "childrenFriendly": false,
+      "petsAllowed": false,
+      "image": "https://source.unsplash.com/featured/?hotel,room,3777"
     },
     {
       "id": 677571,
@@ -864,7 +1106,11 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 398,
+      "childrenFriendly": false,
+      "petsAllowed": false,
+      "image": "https://source.unsplash.com/featured/?hotel,room,1254"
     },
     {
       "id": 724715,
@@ -875,7 +1121,11 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 270,
+      "childrenFriendly": false,
+      "petsAllowed": true,
+      "image": "https://source.unsplash.com/featured/?hotel,room,9119"
     },
     {
       "id": 677574,
@@ -886,7 +1136,11 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 296,
+      "childrenFriendly": false,
+      "petsAllowed": true,
+      "image": "https://source.unsplash.com/featured/?hotel,room,9129"
     },
     {
       "id": 677577,
@@ -897,7 +1151,11 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 301,
+      "childrenFriendly": false,
+      "petsAllowed": true,
+      "image": "https://source.unsplash.com/featured/?hotel,room,6875"
     },
     {
       "id": 757401,
@@ -908,7 +1166,11 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "pricePerNight": 84,
+      "childrenFriendly": false,
+      "petsAllowed": true,
+      "image": "https://source.unsplash.com/featured/?hotel,room,4585"
     }
   ]
 }

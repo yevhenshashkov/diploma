@@ -1,23 +1,17 @@
-import {Outlet} from "react-router";
+import { Outlet } from "react-router";
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
-import SideBar from "./components/SideBar.jsx";
-
 
 const Layout = () => {
     return (
-        <div className="container">
-
+        <div className="min-h-screen flex flex-col">
             <Header />
-
-            <div className="flex flex-row">
-                <SideBar />
+            <main className="flex-1">
                 <Outlet />
-            </div>
+            </main>
             <Footer />
         </div>
-    )
-}
+    );
+};
 
-export default Layout
-
+export default Layout;
