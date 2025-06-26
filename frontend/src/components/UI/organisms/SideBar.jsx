@@ -1,6 +1,5 @@
-
 import { useDispatch, useSelector } from "react-redux";
-import { setSelectedCity, setFilters } from "../../../store/slices/hotelsSlice";
+import { setSelectedCity, setFilters } from "../../../store/slices/hotelsSlice.js";
 import { useState, useEffect } from "react";
 
 const SideBar = () => {
@@ -45,11 +44,9 @@ const SideBar = () => {
 
     return (
         <aside className="w-64 p-5 border-r bg-gray-100 text-sm">
-            <h2 className="text-lg font-bold mb-4">Фильтры</h2>
-
-            {/* Города */}
+            <h2 className="text-lg font-bold mb-4">Filters</h2>
             <div className="mb-6">
-                <h3 className="font-semibold mb-2">Города</h3>
+                <h3 className="font-semibold mb-2">Cities</h3>
                 <ul className="space-y-1">
                     {uniqueCities.map((city) => (
                         <li
@@ -63,9 +60,8 @@ const SideBar = () => {
                 </ul>
             </div>
 
-            {/* Цена */}
             <div className="mb-6">
-                <h3 className="font-semibold mb-2">Цена ($)</h3>
+                <h3 className="font-semibold mb-2">Price ($)</h3>
                 <div className="flex items-center gap-2">
                     <input
                         type="text"
@@ -91,9 +87,9 @@ const SideBar = () => {
                 </div>
             </div>
 
-            {/* Условия */}
+
             <div className="mb-6">
-                <h3 className="font-semibold mb-2">Условия</h3>
+                <h3 className="font-semibold mb-2">Living conditions</h3>
                 <label className="flex items-center gap-2 mb-1">
                     <input
                         type="checkbox"
@@ -113,8 +109,6 @@ const SideBar = () => {
                     Pets friendly
                 </label>
             </div>
-
-            {/* Сброс */}
             <button
                 className="mt-4 w-full bg-red-500 text-white py-1 rounded hover:bg-red-600"
                 onClick={handleReset}

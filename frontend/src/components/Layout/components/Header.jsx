@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <header className="bg-white shadow-md px-6 py-4 flex justify-between items-center">
             <Link to="/" className="text-2xl font-bold text-blue-600">
-                EasyBooking
+                MyBooking
             </Link>
             <nav className="space-x-6 text-sm font-medium">
                 <NavLink

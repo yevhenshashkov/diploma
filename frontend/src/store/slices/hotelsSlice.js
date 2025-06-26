@@ -1,5 +1,4 @@
-
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice, createSelector } from "@reduxjs/toolkit";
 import { getHotelsByCity } from "../thunks/hotelsThunk";
 
 const initialState = {
@@ -11,8 +10,8 @@ const initialState = {
         minPrice: 0,
         maxPrice: 500,
         childrenFriendly: false,
-        petsAllowed: false
-    }
+        petsAllowed: false,
+    },
 };
 
 const hotelsSlice = createSlice({
@@ -23,12 +22,15 @@ const hotelsSlice = createSlice({
             state.selectedCity = action.payload;
         },
         setFilters(state, action) {
-            state.filters = { ...state.filters, ...action.payload };
-        }
+            state.filters = {
+                ...state.filters,
+                ...action.payload,
+            };
+        },
     },
-    extraReducers: builder => {
+    extraReducers: (builder) => {
         builder
-            .addCase(getHotelsByCity.pending, state => {
+            .addCase(getHotelsByCity.pending, (state) => {
                 state.loading = true;
                 state.error = null;
             })
@@ -40,19 +42,31 @@ const hotelsSlice = createSlice({
                 state.error = action.payload;
                 state.loading = false;
             });
-    }
+    },
 });
 
 export const { setSelectedCity, setFilters } = hotelsSlice.actions;
 
-export const selectFilteredHotels = state => {
-    const { items, filters } = state.hotels;
-    return items.filter(hotel =>
-        hotel.pricePerNight >= filters.minPrice &&
-        hotel.pricePerNight <= filters.maxPrice &&
-        (!filters.childrenFriendly || hotel.childrenFriendly) &&
-        (!filters.petsAllowed || hotel.petsAllowed)
-    );
-};
+const selectHotels = (state) => state.hotels.items;
+const selectFilters = (state) => state.hotels.filters;
+const selectSelectedCity = (state) => state.hotels.selectedCity;
+
+export const selectFilteredHotels = createSelector(
+    [selectHotels, selectFilters, selectSelectedCity],
+    (hotels, filters, selectedCity) => {
+        return hotels
+            .filter(hotel => !selectedCity || hotel.city === selectedCity)
+            .filter(hotel =>
+                hotel.pricePerNight >= filters.minPrice &&
+                hotel.pricePerNight <= filters.maxPrice
+            )
+            .filter(hotel =>
+                !filters.childrenFriendly || hotel.childrenFriendly
+            )
+            .filter(hotel =>
+                !filters.petsAllowed || hotel.petsAllowed
+            );
+    }
+);
 
 export default hotelsSlice.reducer;
